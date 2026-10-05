@@ -1,5 +1,4 @@
 /* Body */
-
 body {
     background-color: #fff8f0;
     font-family: Arial, sans-serif;
@@ -7,8 +6,6 @@ body {
     margin: 0;
     padding: 40px;
 }
-
-
 /* Main form box */
 
 .form-box {
@@ -20,10 +17,7 @@ body {
     border: 1px solid #f0d8c2;
     box-shadow: 0 8px 20px rgba(90, 70, 54, 0.10);
 }
-
-
 /* Header */
-
 header {
     background-color: #ffe4cc;
     padding: 18px;
@@ -31,16 +25,12 @@ header {
     text-align: center;
     margin-bottom: 25px;
 }
-
-
 /* Main heading */
 
 h1 {
     color: #d2691e;
     margin: 5px 0;
 }
-
-
 /* Section */
 
 section {
@@ -90,8 +80,6 @@ textarea {
     font-size: 14px;
     background-color: #ffffff;
     color: #5a4636;
-    box-sizing: border-box;
-    transition: 0.2s;
 }
 
 
@@ -160,7 +148,6 @@ button {
     border: none;
     border-radius: 8px;
     font-size: 14px;
-    cursor: pointer;
     transition: 0.2s;
 }
 
@@ -169,7 +156,6 @@ button {
 
 button:hover {
     background-color: #c65d0e;
-    transform: translateY(-1px);
 }
 
 
