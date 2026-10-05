@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="form-header">
+        <h1>STUDENT REGISTRATION FORM</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <form class="form-box">
+
+            <!-- Personal Information Section -->
+            <section>
+                <h2>Personal Information</h2>
+
+                <label for="name"><b>Full Name:</b></label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name">
+
+                <label for="email"><b>Email:</b></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                <label for="age"><b>Age:</b></label>
+                <input type="number" id="age" name="age" placeholder="Enter your age">
+
+                <label for="phone"><b>Phone:</b></label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+                <label for="address"><b>Address:</b></label>
+                <input type="text" id="address" name="address" placeholder="Enter your address">
+            </section>
+
+
+            <!-- Gender Section -->
+            <section>
+                <h2>Gender</h2>
+
+                <div class="options">
+
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+
+                </div>
+            </section>
+
+
+            <!-- Course and Skills Section -->
+            <section>
+                <h2>Course & Skills</h2>
+
+                <label for="course"><b>Select Course:</b></label>
+
+                <select id="course" name="course">
+                    <option value="cs">Computer Science</option>
+                    <option value="it">Information Technology</option>
+                    <option value="ai">AI</option>
+                </select>
+
+                <label><b>Skills:</b></label>
+
+                <div class="options">
+
+                    <input type="checkbox" id="html" name="skills" value="HTML">
+                    <label for="html">HTML</label>
+
+                    <input type="checkbox" id="css" name="skills" value="CSS">
+                    <label for="css">CSS</label>
+
+                    <input type="checkbox" id="js" name="skills" value="JavaScript">
+                    <label for="js">JavaScript</label>
+
+                </div>
+            </section>
+
+
+            <!-- Message Section -->
+            <section>
+                <h2>Message</h2>
+
+                <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+            </section>
+
+
+            <!-- Buttons Section -->
+            <section class="buttons">
+
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+
+            </section>
+
+        </form>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>Student Registration Form | Hamayal Zaheer</p>
+    </footer>
+
+</body>
+
+</html>
