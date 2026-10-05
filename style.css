@@ -1,9 +1,9 @@
 /* Body */
 
 body {
-    background-color: #f1f6fb;
+    background-color: #fff8f0;
     font-family: Arial, sans-serif;
-    color: #34495e;
+    color: #5a4636;
     margin: 0;
     padding: 40px;
 }
@@ -17,15 +17,15 @@ body {
     margin: auto;
     padding: 30px;
     border-radius: 18px;
-    border: 1px solid #dce6f0;
-    box-shadow: 0 8px 20px rgba(52, 73, 94, 0.10);
+    border: 1px solid #f0d8c2;
+    box-shadow: 0 8px 20px rgba(90, 70, 54, 0.10);
 }
 
 
 /* Header */
 
 header {
-    background-color: #d9eaf7;
+    background-color: #ffe4cc;
     padding: 18px;
     border-radius: 12px;
     text-align: center;
@@ -36,7 +36,7 @@ header {
 /* Main heading */
 
 h1 {
-    color: #2471a3;
+    color: #d2691e;
     margin: 5px 0;
 }
 
@@ -44,20 +44,20 @@ h1 {
 /* Section */
 
 section {
-    background-color: #fbfdff;
+    background-color: #fffdf9;
     margin-top: 25px;
     padding: 22px;
-    border: 1px solid #dce6f0;
+    border: 1px solid #f0dcc9;
     border-radius: 12px;
-    box-shadow: 0 3px 8px rgba(52, 73, 94, 0.05);
+    box-shadow: 0 3px 8px rgba(90, 70, 54, 0.05);
 }
 
 
 /* Section headings */
 
 h2 {
-    color: #2471a3;
-    border-bottom: 2px solid #aed6f1;
+    color: #d2691e;
+    border-bottom: 2px solid #f3c49c;
     padding-bottom: 10px;
     margin-top: 0;
 }
@@ -66,7 +66,7 @@ h2 {
 /* Labels */
 
 label {
-    color: #2c3e50;
+    color: #8a4b20;
     display: block;
     font-weight: bold;
     margin-top: 18px;
@@ -85,11 +85,11 @@ textarea {
     width: 95%;
     padding: 12px;
     margin-top: 0;
-    border: 1px solid #c9d6e2;
+    border: 1px solid #ddc8b5;
     border-radius: 8px;
     font-size: 14px;
     background-color: #ffffff;
-    color: #34495e;
+    color: #5a4636;
     box-sizing: border-box;
     transition: 0.2s;
 }
@@ -99,7 +99,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-    color: #9aa7b2;
+    color: #a99a8d;
 }
 
 
@@ -108,18 +108,20 @@ textarea::placeholder {
 input:focus,
 select:focus,
 textarea:focus {
-    border: 1px solid #3498db;
-    outline: none;}
+    border: 1px solid #e67e22;
+    outline: none;
+    box-shadow: 0 0 5px rgba(230, 126, 34, 0.15);
+}
 
 
 /* Radio buttons and checkboxes */
 
 .options {
-    background-color: #eef6fc;
+    background-color: #fff4e8;
     padding: 14px;
     border-radius: 8px;
     margin-top: 8px;
-    border: 1px solid #d6e8f5;
+    border: 1px solid #f2d5bb;
 }
 
 .options label {
@@ -151,7 +153,7 @@ textarea {
 }
 
 button {
-    background-color: #3498db;
+    background-color: #e67e22;
     color: white;
     padding: 11px 28px;
     margin: 5px;
@@ -166,7 +168,7 @@ button {
 /* Button hover */
 
 button:hover {
-    background-color: #2471a3;
+    background-color: #c65d0e;
     transform: translateY(-1px);
 }
 
@@ -175,10 +177,10 @@ button:hover {
 
 footer {
     text-align: center;
-    background-color: #e8f1f8;
-    color: #2471a3;
+    background-color: #ffeedd;
+    color: #b35416;
     margin-top: 25px;
     padding: 12px;
     border-radius: 10px;
-    border: 1px solid #d7e4ef;
+    border: 1px solid #f0d2b8;
 }
